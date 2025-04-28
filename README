@@ -1,0 +1,25 @@
+
+
+PYTHON CODE:
+
+PEST DATASET: https://www.kaggle.com/datasets/simranvolunesia/pest-dataset
+^^^USE THE FOLLOWING CLASSES TO TRAIN THE DATA: armyworm, beetle, bollworm, grasshopper
+
+Convert tflite to .h file: "xxd -i pest_model.tflite > pest_model.h"
+
+
+
+VIRTUAL ENVIRONMENT: couldn't be included in the repository due to size limitations
+pip install the following libraries in ur virtual environment --> "tensorflow", "keras". estimated size: 600MB
+
+
+
+
+ARDUINO IDE:
+
+Installation libraries: download the following repo and manually place it in the libraries folder of the Arduino IDE
+link: https://github.com/tensorflow/tflite-micro
+NOTE: rename the library to "TFLiteMicro"
+
+While configuring the Arduino IDE for the ESP-32S in "boards" choose the "ESP32 DEV MODULE"
+
