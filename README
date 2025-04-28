@@ -23,3 +23,6 @@ NOTE: rename the library to "TFLiteMicro"
 
 While configuring the Arduino IDE for the ESP-32S in "boards" choose the "ESP32 DEV MODULE"
 
+
+ALSO HAD MADE A SIMPLIFIED VERSION TO DEMONSTRATE FUNCTIONALITY LABELED AS "FUNCTIONALITY" using an Arduino, IF Sensor,
+OLED Display, Buzzer
